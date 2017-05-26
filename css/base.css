@@ -1,11 +1,11 @@
 ul {
-  list-style: none !important;
-  padding : 0 !important;
+  list-style: none  ;
+  padding : 0  ;
 }
 
 li {
   padding: 0px;
-  margin: 0 !important;
+  margin: 0  ;
 }
 
 .body-one {
@@ -53,10 +53,10 @@ background-color: #993399;
    border-bottom-right-radius: 10px;
    color: #fff;
    line-height: 20px;
-width: 50px !important;
-height: 40px !important;
-margin-top: 10px !important;
-border-width: 0 !important;
+width: 50px;
+height: 40px;
+margin-top: 10px;
+border-width: 0;
 background: #2a032d url("../assets/img/lens.png") no-repeat scroll 7px 7px;
 padding-left:40px;
 }
@@ -70,10 +70,10 @@ padding-left:40px;
    border-bottom-right-radius: 10px;
    color: #fff;
    line-height: 20px;
-width: 200px !important;
-height: 40px !important;
-margin-top: 10px !important;
-border-width: 0 !important;
+width: 200px;
+height: 40px;
+margin-top: 10px;
+border-width: 0;
 background: #2a032d url("../assets/img/lens.png") no-repeat scroll 7px 7px;
 padding-left:40px;
 }
@@ -87,10 +87,10 @@ padding-left:40px;
    border-bottom-right-radius: 10px;
    color: #fff;
    line-height: 20px;
-width: 200px !important;
-height: 40px !important;
-margin-top: 10px !important;
-border-width: 0 !important;
+width: 200px;
+height: 40px;
+margin-top: 10px;
+border-width: 0;
 background: #2a032d url("../assets/img/lens.png") no-repeat scroll 7px 7px;
 padding-left:40px;
 }
@@ -104,10 +104,10 @@ padding-left:40px;
    border-bottom-right-radius: 10px;
    color: #fff;
    line-height: 20px;
-width: 50px !important;
-height: 40px !important;
-margin-top: 10px !important;
-border-width: 0 !important;
+width: 50px  ;
+height: 40px  ;
+margin-top: 10px  ;
+border-width: 0  ;
 background: #2a032d url("../assets/img/categories.png") no-repeat scroll 7px 7px;
 padding-left:40px;
 }
@@ -130,10 +130,10 @@ padding-left:40px;
   -moz-border-radius-bottomright: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-width: 50px !important;
-min-height: 140px !important;
-margin-top: 10px !important;
-border-width: 0 !important;
+width: 50px  ;
+min-height: 140px  ;
+margin-top: 10px  ;
+border-width: 0  ;
 background-color: #2a032d;
 padding-left:40px;
 }
@@ -149,8 +149,8 @@ padding-left:40px;
    line-height: 20px;
 width: 50px;
 height: 40px;
-margin-top: 10px !important;
-border-width: 0 !important;
+margin-top: 10px;
+border-width: 0;
 padding-left:40px;
 background-color: #2a032d;
 }
@@ -175,4 +175,13 @@ background-color: #2a032d;
 .curved-input{
   background: url("../assets/img/lens.png") no-repeat scroll 7px 7px;
   padding-left:30px;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-width : 300px) {
+/* Styles */
+
+
 }
