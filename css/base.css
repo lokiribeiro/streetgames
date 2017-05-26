@@ -1,3 +1,11 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+div {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 ul {
   list-style: none  ;
   padding : 0  ;
@@ -177,11 +185,81 @@ background-color: #2a032d;
   padding-left:30px;
 }
 
+.game-popup-header {
+  background-color: #993399;
+  border-bottom: 0px !important;
+  color: #fff !important;
+}
+
+.game-popup-body {
+  background-color: #993399;
+  color: #fff;
+
+}
+
+.game-popup-footer {
+  background-color: #993399;
+    border-top: 0px !important;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
 
 /* Smartphones (portrait) ----------- */
 @media only screen
-and (min-width : 300px) {
+and (max-width : 320px) {
 /* Styles */
+}
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+}
 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }

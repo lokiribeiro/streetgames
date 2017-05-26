@@ -14,16 +14,11 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- <link href="http://cdn0.yepi.com/assets/locale_en-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" />-->
-
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 
 <script src="https://apis.google.com/js/platform.js"></script>
 
@@ -41,6 +36,7 @@
   <meta property="og:image" content="assets/img/final_logo2.png"/>
 
   <meta name="keywords" content="download games,free games download, free downloadable games,download game,play games, free street games, freestreetgames.com"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!--<meta name="dailymotion-domain-verification" content="dm8duxgr2tffq4uvw"/>-->
 
@@ -52,83 +48,16 @@
 
 </head>
 <body class="body-one">
-<div>
+
 <div id="content">
 
-<div id="header_container">
-<div id="header_content">
-    <div class="curved-header" style="float:left; margin-right: 35px;">
-      <a href="/"><img alt="Street games" class="device-img" src="assets/img/logo_black.png" title="Free Street Games" /></a>
-    </div>
-    <!--
-
-            <a href="/category/videos.html" style="vertical-align: middle">
-    <div id="videos_btn" class="yepi_font yellow" onclick="videos_btn_clicked('hp')">Videos<div id="vid_img"></div>
-    </div>
-  </a>
-
-
-    <div id="categories_menu" style="vertical-align: middle; cursor: pointer;">
-<div id="categories_topbar_btn" class="yepi_font yellow">Categories
-  <div id="littleArrowMenu" class="fr">▼</div> </div>
-<div id="menu" dir="ltr" class="yepi_font yellow" style="display:none; margin-top: -40px;">
-  <ul id="categories_list_yepi" style="text-align: left; left: 0; display: none; margin-top: 40px; font-size: 14px" >
-            <li>
-              <a href="/">
-                <div class="menuItemName">Homepage</div>
-              </a>
-            </li>
-            <li>
-              <a href="/strategy">
-                <div class="menuItemName">Strategy</div>
-              </a>
-            </li>
-            <li>
-              <a href="/action-arcade">
-                <div class="menuItemName">Action</div>
-              </a>
-            </li>
-            <li>
-              <a href="/girls">
-                <div class="menuItemName">Girls</div>
-              </a>
-            </li>
-            <li>
-              <a href="/puzzles">
-                <div class="menuItemName">Puzzles</div>
-              </a>
-            </li>
-            <li>
-              <a href="/driving">
-                <div class="menuItemName">Driving</div>
-              </a>
-            </li>
-        <li ><a href="/category/videos.html"><div class="menuItemName">Videos</div>
-        <li ><a href="/category/yepi-tv.html"><div class="menuItemName">Yepi TV</div>
-        </a> </li>
-  </ul>
-</div>
-</div>
-
-      <div class="recent_games fl" id="recent_games">
+  <div id="header_container">
+    <div id="header_content">
+      <div class="curved-header" style="float:left; margin-right: 35px;">
+        <a href="/"><img alt="Street games" class="device-img" src="assets/img/logo_black.png" title="Free Street Games" /></a>
       </div>
-
-    <div class="fl" style="margin-top: 11px; margin-left: 10px">
-          <div class="fr chrome-ext-btn-home" id="install_wrapper" style="display: none;">
-            <button type="button" onclick="install_yepi_chrome_extension()" id="install-button"></button>
-            <div class="extension_title" style="display: none;">Add Yepi to Chrome</div>
-          </div>
     </div>
-
-    <div class="fl yellow yepi_font" id="search_div">
-      <input autocomplete="off" class="yepi_font yellow" id="search" maxlength="20" name="search" onblur="searchBlur(this);" onfocus="searchFocus(this);" org_value="Search" type="text" value="Search" />-->
-      <!--<img class="fr" src="http://cdn0.yepi.com/assets/collections/magnifier-39e99762ce03caaa937c3500ec1f863e.png" style="margin:1px 1px 0 0;" />-->
-    <div id="search_img" class="fr"></div>
-    </div>
-
-
   </div>
-</div>
 </div>
 
 
@@ -158,14 +87,48 @@
 </div>
 
 <div class="container-fluid main-container">
-      <img class="game-container" src="assets/img/big_game1.png" />
-      <img class="game-container" src="assets/img/big_game2.png" />
-      <img class="game-container" src="assets/img/big_game3.png" />
-      <img class="game-container" src="assets/img/big_game4.png" />
-      <img class="game-container" src="assets/img/big_game5.png" />
-      <img class="game-container" src="assets/img/big_game6.png" />
+  <a href="#">
+      <img  data-toggle="modal" data-target="#myModal" class="game-container" src="assets/img/big_game1.png" />
+    </a>
+    <a href="#">
+      <img data-toggle="modal" data-target="#myModal" class="game-container" src="assets/img/big_game2.png" />
+    </a>
+    <a href="#">
+      <img data-toggle="modal" data-target="#myModal" class="game-container" src="assets/img/big_game3.png" />
+    </a>
+    <a href="#">
+      <img data-toggle="modal" data-target="#myModal" class="game-container" src="assets/img/big_game4.png" />
+    </a>
+    <a href="#">
+      <img data-toggle="modal" data-target="#myModal" class="game-container" src="assets/img/big_game5.png" />
+    </a>
+    <a href="#">
+      <img data-toggle="modal" data-target="#myModal" class="game-container" src="assets/img/big_game6.png" />
+    </a>
 </div>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header game-popup-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Game Title</h4>
+      </div>
+      <div class="modal-body  game-popup-body">
+        <p class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="col-md-4"><img class="game-container" src="assets/img/big_game1.png" />
+        </p>
+      </div>
+      <div class="modal-footer  game-popup-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Let's Play</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 </body>
 </html>
