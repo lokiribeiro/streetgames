@@ -26,7 +26,7 @@ background-color: #993399;
 }
 
 .curved-sidebar {
-
+z-index: 2;
   position: absolute;
    left: 0px;
    top: 180px;
@@ -147,8 +147,8 @@ padding-left:40px;
    border-bottom-right-radius: 10px;
    color: #fff;
    line-height: 20px;
-width: 50px !important;
-height: 40px !important;
+width: 50px;
+height: 40px;
 margin-top: 10px !important;
 border-width: 0 !important;
 padding-left:40px;
@@ -158,6 +158,17 @@ background-color: #2a032d;
 .flags {
   left: 10px;
   position: absolute;
+}
+
+.main-container {
+  position: absolute;
+  top: 180px;
+  left: 250px;
+}
+
+.game-container {
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 
