@@ -1,3 +1,13 @@
+ul {
+  list-style: none !important;
+  padding : 0 !important;
+}
+
+li {
+  padding: 0px;
+  margin: 0 !important;
+}
+
 .body-one {
     background: #3b0440 url("../assets/img/56492.jpg") no-repeat right top;
 }
@@ -84,6 +94,72 @@ border-width: 0 !important;
 background: #2a032d url("../assets/img/lens.png") no-repeat scroll 7px 7px;
 padding-left:40px;
 }
+
+.curved-categories {
+   -webkit-border-top-right-radius: 10px;
+   -webkit-border-bottom-right-radius: 10px;
+   -moz-border-radius-topright: 10px;
+   -moz-border-radius-bottomright: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: #fff;
+   line-height: 20px;
+width: 50px !important;
+height: 40px !important;
+margin-top: 10px !important;
+border-width: 0 !important;
+background: #2a032d url("../assets/img/categories.png") no-repeat scroll 7px 7px;
+padding-left:40px;
+}
+
+.gamesplayed {
+  left: 0px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.gamesplayedlist {
+  padding-bottom: 10px;
+}
+
+.curved-gamesplayed {
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+width: 50px !important;
+min-height: 140px !important;
+margin-top: 10px !important;
+border-width: 0 !important;
+background-color: #2a032d;
+padding-left:40px;
+}
+
+.curved-language {
+   -webkit-border-top-right-radius: 10px;
+   -webkit-border-bottom-right-radius: 10px;
+   -moz-border-radius-topright: 10px;
+   -moz-border-radius-bottomright: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: #fff;
+   line-height: 20px;
+width: 50px !important;
+height: 40px !important;
+margin-top: 10px !important;
+border-width: 0 !important;
+padding-left:40px;
+background-color: #2a032d;
+}
+
+.flags {
+  left: 10px;
+  position: absolute;
+}
+
 
 .curved-input{
   background: url("../assets/img/lens.png") no-repeat scroll 7px 7px;
